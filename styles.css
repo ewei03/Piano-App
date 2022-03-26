@@ -1,0 +1,77 @@
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.header a.logo {
+    font-size: 18px;
+    font-family:'Trebuchet MS';
+    text-align: center;
+}
+
+.header b.label {
+    font-size: 30px;
+    text-align: center;
+    font-family:'Trebuchet MS';
+}
+
+body {
+    background-color:#D4D4D4;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.piano {
+    display: flex;
+}
+
+.white {
+    width: 100px;
+    height: 450px;
+    background-color: #FFF;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 10px #000;
+    z-index: 0;
+    border-radius: .5rem;
+}
+
+.white.active {
+    background-color: #CCC;
+    margin-top: 5px;
+}
+
+.black {
+    width: 60px;
+    height: 270px;
+    background-color: #000;
+    margin-left: -30px;
+    margin-right: -30px;
+    box-shadow: 0px 0px 5px #000;
+    z-index: 1;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.black.active {
+    background-color: #333;
+    height: 275px;
+}
+
+.keybinds {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+}
+
+.author {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-family: 'Trebuchet MS';
+    font-size: 8px;
+}
