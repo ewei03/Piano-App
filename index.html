@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Keyboard</title>
+    <link rel="icon" type="image/x-icon" href="/piano.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="header">
+        <a class="logo">
+            <h1>Click on the keys or use your keyboard to play the piano!</h1>
+        </a>
+        <b class="label">
+            <h1 id="name"></h1>
+        </b>
+      </div>
+
+      <div class="keybinds">
+        <h2><b>Keybinds</b></h2>
+        <h3>White Keys: A S D F G H J</h3>
+        <h3>Black Keys: W E R T Y</h3>
+      </div>
+
+      <div class="author">
+          <h1>Made by Enoch Wei</h1>
+      </div>
+
+
+    <div class="piano">
+        <div data-note="C" class="white key"></div>
+        <div data-note="C#/Db" class="black key"></div>
+        <div data-note="D" class="white key"></div>
+        <div data-note="D#/Eb" class="black key"></div>
+        <div data-note="E" class="white key"></div>
+        <div data-note="F" class="white key"></div>
+        <div data-note="F#/Gb" class="black key"></div>
+        <div data-note="G" class="white key"></div>
+        <div data-note="G#/Ab" class="black key"></div>
+        <div data-note="A" class="white key"></div>
+        <div data-note="A#/Bb" class="black key"></div>
+        <div data-note="B" class="white key"></div>
+    </div>
+
+    <audio id="C" src="notes/C.mp3"></audio>
+    <audio id="C#/Db" src="notes/Db.mp3"></audio>
+    <audio id="D" src="notes/D.mp3"></audio>
+    <audio id="D#/Eb" src="notes/Eb.mp3"></audio>
+    <audio id="E" src="notes/E.mp3"></audio>
+    <audio id="F" src="notes/F.mp3"></audio>
+    <audio id="F#/Gb" src="notes/Gb.mp3"></audio>
+    <audio id="G" src="notes/G.mp3"></audio>
+    <audio id="G#/Ab" src="notes/Ab.mp3"></audio>
+    <audio id="A" src="notes/A.mp3"></audio>
+    <audio id="A#/Bb" src="notes/Bb.mp3"></audio>
+    <audio id="B" src="notes/B.mp3"></audio>
+
+</body>
+</html>
